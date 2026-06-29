@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require ('express');
 const cors = require('cors');
 const mongoose = require('mongoose')
@@ -7,7 +9,7 @@ const app = express();
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect('mongodb+srv://aesyaak_db_user:KXI5g2KdCMf1DG3p@cluster0.lhlcheu.mongodb.net/outproDB?appName=Cluster0')
+mongoose.connect(process.env.MONGO_URI)
 .then(()=> console.log ("Mongodb connected"))
 .catch((err)=> console.log("Mongodb error:",err))
 
@@ -66,8 +68,10 @@ app.post("/api/projects", async(req,res)=>{
 })
 
 app.post("/api/contact", async(req,res)=>{
+    console.log("Recieved:",req.body);
     const data = new Contact(req.body);
     await data.save();
+    console.log("Saved:",data)
     res.json({
         message:"Message recieved successfully."
     });
