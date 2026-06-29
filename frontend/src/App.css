@@ -1,0 +1,268 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    padding: 10px 0;
+}
+
+.logo{
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.links{
+    margin-right: 15px;
+    font-size: 15px;
+    color:#000;
+}
+
+.links:hover{
+    color:#0d6efd;
+}
+
+.contact-btn{
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.about-section{
+    padding: 75px 0;
+}
+
+.hero-row{
+  align-items: center;
+}
+
+.hero-section{
+    height: 700px;
+    background-image:url("https://images.unsplash.com/photo-1522071820081-009f0129c71c");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    padding: 80px;
+    margin-top:10px ;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+}
+
+.about-section img{
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.Metric-section{
+    padding: 75px 0;
+}
+
+.Metric-section h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.Metric-section p{
+    margin-top: 10px;
+}
+
+.services-page{
+    padding: 75px 0;
+}
+
+.service-header{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.service-header p{
+    color:#555;
+}
+
+.services-card{
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.services-card:hover{
+    transform:scale(1.05);
+}
+
+.service-btn{
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+.service-btn:hover{
+    text-decoration: underline;
+}
+
+.testimonial-section{
+    padding: 75px 0;
+}
+
+.testimonial-card{
+    text-align: center;
+}
+
+.Service-overview{
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #212529;
+    color: white;
+    padding: 35px 20px;
+    margin-top: 45px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-column p{
+    margin-bottom: 5px;
+}
+
+.Copyright {
+    text-align: center;
+    margin-top:25px;
+}
+
+.about-page{
+    padding:60px;
+}
+
+.about-story{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:35px;
+    margin-bottom:55px;
+    flex-wrap:wrap;
+}
+
+.story-text{
+    flex:1;
+}
+
+.story-text h2{
+    margin-bottom:20px;
+}
+
+.story-text p{
+    line-height: 1.8;
+    color:#555;
+}
+
+.story-image{
+    flex:1;
+    text-align:center;
+}
+
+.story-image img{
+    width:100%;
+    max-width:500px;
+    border-radius:10px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.mission-section{
+    display:flex;
+    justify-content:space-between;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-bottom:55px;
+}
+
+.mission-card{
+    flex:1;
+    min-width:250px;
+    background-color:#f8f9fa;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.mission-card:hover{
+    transform:translateY(-5px);
+}
+
+.leadership{
+    text-align:center;
+    margin-bottom:55px;
+}
+
+.leader-card{
+    max-width:500px;
+    margin:auto;
+    padding:25px;
+    background:#f8f9fa;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.team-section{
+    text-align:center;
+}
+
+.team-container{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.team-card{
+    width:250px;
+    padding:25px;
+    background-color:#f8f9fa;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.team-card:hover{
+    transform:translateY(-5px);
+}
+
+.Details{
+  display: grid;
+}
+
+form{
+    max-width:550px;
+    margin:auto;
+    padding:15px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+
+}
+
+input, textarea{
+    width:100%;
+    padding:5px;
+    margin:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
