@@ -68,10 +68,9 @@ app.post("/api/projects", async(req,res)=>{
 })
 
 app.post("/api/contact", async(req,res)=>{
-    console.log("🔥 API HIT");
     console.log("BODY:",req.body)
     res.json({
-        message:"Backend reached successfully."
+        message:"message received successfully."
     });
 })
 
