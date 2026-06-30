@@ -68,7 +68,9 @@ app.post("/api/projects", async(req,res)=>{
 })
 
 app.post("/api/contact", async(req,res)=>{
-    console.log("BODY:",req.body)
+    console.log("BODY:",req.body);
+    const data = new Contact(req.body);
+    await data.save();
     res.json({
         message:"message received successfully."
     });
