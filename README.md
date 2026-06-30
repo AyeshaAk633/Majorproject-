@@ -15,8 +15,8 @@ This project is a Corporate Digital Presence Platform developed for **Outpro.Ind
 ## Tech Stack
 
 ### Frontend
-- React.js
-- Javascript 
+- React.js(Vite)
+- JavaScript 
 - CSS3
 - Bootstrap
 
@@ -24,7 +24,7 @@ This project is a Corporate Digital Presence Platform developed for **Outpro.Ind
 - Node.js
 - server.js
 
-### Databaseco
+### Database
 - MongoDB Atlas
 - Mongoose
 
@@ -53,8 +53,7 @@ Majorproject/
 
 ```bash
 cd Majorproject/backend
-npm init -y
-npm install express mongoose cors dotenv
+npm install
 node server.js
 ```
 
@@ -62,7 +61,6 @@ node server.js
 
 ```bash
 cd Majorproject/frontend
-npm create vite@latest
 npm install
 npm run dev
 ```
