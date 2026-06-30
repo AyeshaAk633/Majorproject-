@@ -68,12 +68,10 @@ app.post("/api/projects", async(req,res)=>{
 })
 
 app.post("/api/contact", async(req,res)=>{
-    console.log("Recieved:",req.body);
-    const data = new Contact(req.body);
-    await data.save();
-    console.log("Saved:",data)
+    console.log("🔥 API HIT");
+    console.log("BODY:",req.body)
     res.json({
-        message:"Message recieved successfully."
+        message:"Backend reached successfully."
     });
 })
 

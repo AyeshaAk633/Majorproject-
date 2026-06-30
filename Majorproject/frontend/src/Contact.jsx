@@ -17,7 +17,7 @@ function Contact(){
         e.preventDefault();
 
         const response = await 
-        fetch("http://localhost:8000/api/contact",{
+        fetch("https://majorproject-3-qoua.onrender.com/api/contact",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
