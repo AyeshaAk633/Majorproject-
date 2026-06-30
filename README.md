@@ -22,7 +22,7 @@ This project is a Corporate Digital Presence Platform developed for **Outpro.Ind
 
 ### Backend
 - Node.js
-- server.js
+- Express.js
 
 ### Database
 - MongoDB Atlas
